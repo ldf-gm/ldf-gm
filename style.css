@@ -31,9 +31,6 @@ main {
   }
   
  footer {
-  position: relative;
-  margin-top: auto;
-  width: 100%;
   background-color: #BF00FF;
   color: #ffff;
   padding: 50px;
