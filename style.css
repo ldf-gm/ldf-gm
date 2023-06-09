@@ -44,7 +44,7 @@ footer {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(auto,1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-row-gap: 10px;
     grid-column-gap: 10px;
 
@@ -52,8 +52,8 @@ footer {
 }
 
 .item {
-    width: 400;
-    height: 200px;
+    width: 400px;
+    height: 500px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
