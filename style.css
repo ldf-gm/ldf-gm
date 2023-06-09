@@ -40,11 +40,11 @@ footer {
   background: linear-gradient(to top, #BF00FF, #f2f2f2);
 }
 
-Video-Container {
+.Video-Container {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(auto,1fr);
+    grid-template-rows: repeat(2,1fr);
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     padding: 10px;
