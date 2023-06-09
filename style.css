@@ -40,7 +40,7 @@ footer {
   background: linear-gradient(to top, #BF00FF, #f2f2f2);
 }
 
-.Video-Container {
+Video-Container {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3,1fr);
@@ -50,12 +50,9 @@ footer {
     padding: 10px;
 }
 
-.item {
-    width: 220;
-    height: 480px;
+.twitter-tweet {
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   
 }
 
 
