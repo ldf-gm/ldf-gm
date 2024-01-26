@@ -1,55 +1,8 @@
 body {
-	font-family: Arial, sans-serif;
-	text-align: center;
-	background-color: #fff0d1;
-	background: linear-gradient(to bottom, #fff0d1, #FFFFFF);
-	min-height: 100vh;
-	background-attachment: fixed;
-}
-
-
-header {
-	color: #ffff;
-	text-shadow: 
-        -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-	padding: 40px;
-	text-align: center;
-}
-
-main {
-	padding: 20px;
-}
-
-.email-button {
-    background-color: #4B0082;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-  
-  .email-button:hover {
-    background-color: #E6E6FA;
-  }
-
-.floating-background {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    border: 2px solid black; /* Black outline */
-    border-radius: 15px; /* Rounded corners with a radius of 15px */
-    padding: 20px; /* Spacing inside the box */
-    width: 50%; /* Width of the floating element */
-    margin: 0 auto; /* Center the box horizontally */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a floating effect */
-    position: relative; /* Relative positioning */
-    top: 50px; /* Adjust the vertical position */
-    text-align: center; /* Center the text */
-}
-
-body {
-    background-color: #f0f0f0; /* Solid background color */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #fff0d1, #FFFFFF);
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     height: 100vh; /* Full height */
@@ -58,9 +11,41 @@ body {
     align-items: center; /* Center vertically */
 }
 
+header {
+    color: #ffff;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    padding: 40px;
+}
 
+main {
+    padding: 20px;
+}
 
-  
+.email-button {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
+.email-button:hover {
+    background-color: #E6E6FA;
+}
 
-
+.floating-background {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: 2px solid black; /* Black outline */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the box */
+    width: 50%; /* Width of the floating element */
+    margin: 0 auto; /* Center the box horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for floating effect */
+    position: relative; /* Relative positioning */
+    top: 50px; /* Adjust the vertical position */
+    text-align: center; /* Center the text */
+}
