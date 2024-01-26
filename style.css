@@ -1,17 +1,17 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #fff0d1;
+	background-color: #FFFFFF;
     text-align: center;
       
 }
 
 
 header {
-	background-color: #BF00FF;
+	background-color: #fff0d1;
 	color: #ffff;
 	padding: 50px;
 	text-align: center;
-    background: linear-gradient(to bottom, #BF00FF, #fff0d1);
+    background: linear-gradient(to bottom, #fff0d1, #FFFFFF);
 }
 
 main {
@@ -30,15 +30,6 @@ main {
     background-color: #E6E6FA;
   }
   
-footer {
-  position: relative;
-  width: 100%;
-  bottom: 0;
-  background-color: #BF00FF;
-  color: #ffff;
-  text-align: center;
-  background: linear-gradient(to top, #BF00FF, #f2f2f2);
-}
 
 
 
