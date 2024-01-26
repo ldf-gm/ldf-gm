@@ -1,17 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     background: linear-gradient(to bottom, #fff0d1, #FFFFFF);
     background-attachment: fixed;
     margin: 0;
     padding: 0;
     min-height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Start from the top */
+    align-items: center; /* Center items horizontally */
 }
 
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
     text-align: center;
     color: #ffff;
     text-shadow: 
@@ -20,12 +20,13 @@ header {
         -1px 1px 0 #000,
         1px 1px 0 #000;
     padding: 40px;
-    z-index: 100; /* Ensures the header stays on top of other elements */
+    width: 100%; /* Full width */
 }
 
 main {
     padding: 20px;
-    margin-top: 80px
+    width: 100%; /* Adjust as necessary */
+}
 
 .email-button {
     background-color: #4B0082;
@@ -40,14 +41,12 @@ main {
 }
 
 .floating-background {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    border: 2px solid black; /* Black outline */
-    border-radius: 15px; /* Rounded corners */
-    padding: 20px; /* Spacing inside the box */
-    width: 50%; /* Width of the floating element */
-    margin: 0 auto; /* Center the box horizontally */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for floating effect */
-    position: relative; /* Relative positioning */
-    top: 50px; /* Adjust the vertical position */
-    text-align: center; /* Center the text */
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%; /* Adjust as necessary */
+    margin: 20px 0; /* Added vertical margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
