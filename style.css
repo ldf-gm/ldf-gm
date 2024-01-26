@@ -34,6 +34,20 @@ main {
   .email-button:hover {
     background-color: #E6E6FA;
   }
+
+.floating-background {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 15px; /* Rounded corners with a radius of 15px */
+    padding: 20px; /* Spacing inside the box */
+    width: 50%; /* Width of the floating element */
+    margin: 0 auto; /* Center the box horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a floating effect */
+    position: relative; /* Relative positioning */
+    top: 50px; /* Adjust the vertical position */
+    text-align: center; /* Center the text */
+}
+
+
   
 
 
