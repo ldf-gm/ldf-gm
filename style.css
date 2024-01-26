@@ -3,7 +3,8 @@ body {
 	text-align: center;
 	background-color: #fff0d1;
 	background: linear-gradient(to bottom, #fff0d1, #FFFFFF)
-      
+	min-height: 100vh;
+	background-attachment: fixed;
 }
 
 
