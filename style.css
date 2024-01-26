@@ -45,13 +45,14 @@ header {
 }
 
 .email-button, .website-button {
-    background-color: #4B0082;
+    background-color: #d6b7ee;
     color: #fff;
     padding: 10px 20px;
+    border: 2px solid black;
     border-radius: 5px;
     text-decoration: none;
     display: inline-block; /* Center these inline-block elements */
-    margin: 5px; /* Spacing between buttons */
+    margin: 1px; /* Spacing between buttons */
 }
 
 .email-button:hover, .website-button:hover {
