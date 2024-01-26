@@ -12,6 +12,8 @@ body {
 }
 
 header {
+    position: fixed
+    text-align: center
     color: #ffff;
     text-shadow: 
         -1px -1px 0 #000,  
